@@ -1,19 +1,19 @@
 #include "main.h"
 /**
-  *main -  entry point
-  *
-  *Description: You are not allowed to include standard libraries.
-  *Return: 0
-  */
+*main - Entry point
+*
+*Return: Always 0 (Success)
+*/
+
 int main(void)
 {
-	char *sh = "_putchar";
-
-	while (*sh)
+	char *ch = "_putchar";
+	while (*ch)
 	{
-		_putchar(*sh);
-		sh++;
+		_putchar(*ch);
+		ch++;
 	}
 	_putchar('\n');
+
 	return (0);
 }
