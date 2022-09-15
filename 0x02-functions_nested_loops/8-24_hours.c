@@ -4,6 +4,7 @@
   *h = hour, m = minutes
   * / 10 allowssecond digits to rotate
   *for loop breaks before passing 24:00
+  *Description: Starts with 00:00 to 23:59
   *Return: 24 hour clock line by line
   */
 void jack_bauer(void)
