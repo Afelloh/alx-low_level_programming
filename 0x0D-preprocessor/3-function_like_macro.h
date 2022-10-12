@@ -1,4 +1,6 @@
-#ifndef _HEADER_
-#define _HEADER_
-#define ABS(x) ((x) < 0 ? ((x) * -1) : (x))
+#ifndef _FUNCTION_LIKE_MACRO_H_
+#define _FUNCTION_LIKE_MACRO_H_
+
+#define ABS(x) ((x) < (0) ? ((x) * (-1)) : (x))
+
 #endif
